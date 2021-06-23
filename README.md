@@ -31,6 +31,9 @@ With the frequency domain at hands, we divide the base image into sectors (3x3 i
 <p>
   
   If we have a key value (the secret image's dimensions), we can recover each frequency we've put in on the encoding fase. With those frequencies, we simply apply the Inverse Fourier Transform to get back the original secret message.
+  
+  ### Conclusion
+  All the code can be found in the steg.ipynb file.
 
 
 
