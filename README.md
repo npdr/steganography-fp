@@ -23,7 +23,7 @@ Input Images
   
 Output Image
 <p float="left">
-  <img src="https://github.com/npdr/steganography-fp/blob/main/images/input+qr.png.jpg" height="250" width="250">
+  <img src="https://github.com/npdr/steganography-fp/blob/main/images/input+qr.png" height="250" width="250">
 <p>
 
 
