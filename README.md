@@ -14,7 +14,7 @@ This output image will appear to be just the regular input image, but we can rec
 
 ![Steganography Simplified Diagram](./diagrams/diagram_simplified.png)
 
-Simplified diagram showing how the encoding method works
+*Simplified diagram showing how the encoding method works*
 
 ### Why use frequency domain?
 
@@ -47,9 +47,7 @@ We first convert the base image to HSV, then apply the Fourier Transform on the 
 
 ![Encoding Method Diagram](./diagrams/diagram_encoding.png)
 
-Detailed diagram of encoding method
-
-**Example**
+*Detailed diagram of encoding method*
 
 **Input Images**
 
@@ -70,12 +68,8 @@ If we have a key value (the secret image's dimensions), we can recover each freq
 
 ![Decoding Method Diagram](./diagrams/diagram_decoding.png)
 
-Detailed diagram of decoding method
-
-**Example**
+*Detailed diagram of decoding method*
 
 **Decoded Message**
 
 ![Decoded Message Image](./images/decoded_first1.png)
-
----
