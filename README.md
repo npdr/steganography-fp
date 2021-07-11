@@ -52,13 +52,13 @@ We first convert the base image to HSV, then apply the Fourier Transform on the 
 **Input Images**
 
 <p float="left">
-  <img src="https://github.com/npdr/steganography-fp/blob/main/images/input_windows.jpg" height="250" width="250">
-  <img src="https://github.com/npdr/steganography-fp/blob/main/images/input_qr.png" height="250" width="250">
+  <img src="https://github.com/npdr/steganography-fp/blob/main/images/input_windows.jpg" height="195">
+  <img src="https://github.com/npdr/steganography-fp/blob/main/images/input_qr.png">
 <p>
 
 **Final Image**
-
-![Final Image](./images/output_encoded.png)
+  
+<img src="https://github.com/npdr/steganography-fp/blob/main/images/output_encoded.png" height="195">
 
 ---
 
