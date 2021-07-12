@@ -32,8 +32,11 @@ I this project, we use a sampled Fourier Transform, the **Discrete Fourier Trans
 ## Code and images sources
 
 - Source code can be found in steg.ipynb file in this repository.
-- Input image used as example was downloaded [here](https://wallpapercave.com/w/wp2754860).
-- The input QR Code was generated using [something](http://google.com).
+- Input images sources:
+  - Windows XP classic wallpaper - https://wallpapercave.com/w/wp2754860
+  - Generated QR code - https://www.the-qrcode-generator.com/ (Read the code to see where it takes you :p)
+  - Flock of birds landscape - https://www.pexels.com/photo/flock-of-birds-917494/
+  - Google Chrome T-Rex - https://www.pngwing.com/pt/free-png-xzvzd
 
 ## Example and how it works
 
@@ -52,13 +55,13 @@ We first convert the base image to HSV, then apply the Fourier Transform on the 
 **Input Images**
 
 <p float="left">
-  <img src="https://github.com/npdr/steganography-fp/blob/main/images/input_windows.jpg" height="195">
-  <img src="https://github.com/npdr/steganography-fp/blob/main/images/input_qr.png">
+  <img src="https://github.com/npdr/steganography-fp/blob/main/images/input_windows.jpg" height="200">
+  <img src="https://github.com/npdr/steganography-fp/blob/main/images/input_qrcode.png" height="200">
 <p>
 
 **Final Image**
   
-<img src="https://github.com/npdr/steganography-fp/blob/main/images/output_encoded.png" height="195">
+<img src="https://github.com/npdr/steganography-fp/blob/main/images/output_windows_qrcode.png" height="200">
 
 ---
 
@@ -72,4 +75,4 @@ If we have a key value (the secret image's dimensions), we can recover each freq
 
 **Decoded Message**
 
-![Decoded Message Image](./images/decoded_first1.png)
+![Decoded Message Image](./images/output_qrcode.png)
