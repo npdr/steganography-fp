@@ -2,9 +2,11 @@
 
 ## Students
 
-- Fabiana Dalacqua Mendes
-- Lucas Yamamoto
-- Pedro Henrique Nieuwenhoff
+| Name                      | Role              |
+|---------------------------|-------------------|
+| Fabiana Dalacqua Mendes   | Searching for the possible methods, organization and explanation of the code, and doing tests |
+| Lucas Yuiti Oda Yamamoto  | Adaptation of the methods to allow the use of colored images, and implementation of methods to avoid loss of data between the encoding and decoding steps |
+| Pedro Henrique Nieuwenhoff | Implementation of the encoding and and decoding methods for gray-scale images, and creating the encode and decode diagrams |
 
 ## Objective
 
